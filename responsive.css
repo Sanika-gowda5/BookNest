@@ -1,0 +1,55 @@
+
+
+@media (max-width: 900px) {
+    .book-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    header {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .hero {
+        padding: 50px 15px;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    .book-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .book-detail {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .cart-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .form-section {
+        margin: 20px 12px;
+        padding: 20px;
+    }
+}
